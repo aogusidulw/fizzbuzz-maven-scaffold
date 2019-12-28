@@ -1,7 +1,9 @@
 import static org.fest.assertions.api.Assertions.assertThat;
 
 import org.junit.Test;
-
+/*
+ * ÁõÎÄ
+ * */
 public class FizzBuzzTest {
 	@Test
 	public void should_return_Fizz_given_number_divisible_by_3() {
