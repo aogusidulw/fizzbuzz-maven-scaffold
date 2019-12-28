@@ -41,13 +41,13 @@ public class Rover {
 			x--;
 		}
 		
-//		if(!area.containsPointWithX(x)) {
-//			throw new Exception("不能移动到区域外");
-//		}
-//		
-//		if(!area.containsPointWithY(y)) {
-//			throw new Exception("不能移动到区域外");
-//		}
+		if(!area.containsPointWithX(x)) {
+			throw new Exception("不能移动到区域外");
+		}
+		
+		if(!area.containsPointWithY(y)) {
+			throw new Exception("不能移动到区域外");
+		}
 	}
 	
 	public void turnLeft() {
