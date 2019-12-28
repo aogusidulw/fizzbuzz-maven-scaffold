@@ -16,7 +16,8 @@ public class HelloWorldTest {
         Dependency dependency = mock(Dependency.class);
         when(dependency.say()).thenReturn("Hello World");
         HelloWorld helloWorld = new HelloWorld(dependency);
-
+System.out.print("1");
         assertThat(helloWorld.beenCalled()).isEqualTo("Hello World");
     }
+    /// afafdf 
 }
